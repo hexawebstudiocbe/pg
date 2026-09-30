@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Room Details | Premium PG in Coimbatore</title>
+    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg fixed-top scrolled">
+        <div class="container">
+            <a class="navbar-brand heading-font fs-4" href="index.html">Elite Stays PG</a>
+            <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <i class="fa-solid fa-bars fs-2 text-primary"></i>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav mx-auto">
+                    <li class="nav-item"><a class="nav-link " href="index.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link active" href="rooms.html">Rooms</a></li>
+                    <li class="nav-item"><a class="nav-link " href="amenities.html">Amenities</a></li>
+                    <li class="nav-item"><a class="nav-link " href="locations.html">Locations</a></li>
+                    <li class="nav-item"><a class="nav-link " href="about.html">About</a></li>
+                    <li class="nav-item"><a class="nav-link " href="faq.html">FAQ</a></li>
+                    <li class="nav-item"><a class="nav-link " href="contact.html">Contact</a></li>
+                </ul>
+                <div class="d-flex align-items-center gap-3">
+                    <a href="tel:+91 98765 43210" class="text-decoration-none d-none d-xl-block">
+                        <i class="fa-solid fa-phone me-2"></i>+91 98765 43210
+                    </a>
+                    <a href="contact.html" class="btn btn-primary">Book a Visit</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Page Header -->
+    <div class="bg-light pt-5 pb-3 mt-5 border-bottom">
+        <div class="container pt-4">
+            <nav aria-label="breadcrumb">
+                <ol class="breadcrumb">
+                    <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+                    <li class="breadcrumb-item"><a href="rooms.html">Rooms</a></li>
+                    <li class="breadcrumb-item active" aria-current="page">Single Occupancy</li>
+                </ol>
+            </nav>
+        </div>
+    </div>
+
+    <!-- Room Details Section -->
+    <section class="section-padding py-5">
+        <div class="container">
+            <div class="row g-5">
+                <!-- Gallery -->
+                <div class="col-lg-7">
+                    <div class="swiper room-gallery-swiper rounded-4 shadow-sm">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <img src="https://images.unsplash.com/photo-1555854877-bab0e564b8d5?q=80&w=1000&auto=format&fit=crop" class="img-fluid" alt="Room View 1">
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="https://images.unsplash.com/photo-1598928506311-c55ded91a20c?q=80&w=1000&auto=format&fit=crop" class="img-fluid" alt="Room View 2">
+                            </div>
+                        </div>
+                        <div class="swiper-pagination"></div>
+                        <div class="swiper-button-prev"></div>
+                        <div class="swiper-button-next"></div>
+                    </div>
+                </div>
+
+                <!-- Info -->
+                <div class="col-lg-5">
+                    <span class="badge bg-primary mb-2 px-3 py-2 rounded-pill">AC Available</span>
+                    <h1 class="mb-3">Single Occupancy</h1>
+                    <div class="fs-4 text-primary fw-bold mb-4">From ₹6,500 <span class="fs-6 text-muted fw-normal">/ month</span></div>
+                    
+                    <p class="text-muted mb-4">A private, fully furnished room designed for maximum comfort. Perfect for working professionals or students who value personal space.</p>
+                    
+                    <div class="d-flex flex-wrap gap-2 mb-4">
+                        <span class="border rounded px-3 py-2 text-muted small"><i class="fa-solid fa-user me-2"></i>1 Person</span>
+                        <span class="border rounded px-3 py-2 text-muted small"><i class="fa-solid fa-bath me-2"></i>Attached Bath</span>
+                        <span class="border rounded px-3 py-2 text-muted small"><i class="fa-solid fa-check me-2"></i>Available: [STATUS]</span>
+                    </div>
+
+                    <div class="d-grid gap-3">
+                        <a href="contact.html" class="btn btn-primary btn-lg">Book a Visit</a>
+                        <a href="https://wa.me/+91 98765 43210" target="_blank" class="btn btn-outline-success btn-lg"><i class="fa-brands fa-whatsapp me-2"></i>Enquire on WhatsApp</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Features -->
+            <div class="row mt-5 pt-5 border-top">
+                <div class="col-md-6 mb-4">
+                    <h3 class="mb-4">Room Features</h3>
+                    <div class="row g-3">
+                        <div class="col-6"><i class="fa-solid fa-bed text-secondary me-2"></i>Bed & Mattress</div>
+                        <div class="col-6"><i class="fa-solid fa-door-closed text-secondary me-2"></i>Wardrobe</div>
+                        <div class="col-6"><i class="fa-solid fa-laptop text-secondary me-2"></i>Study Table & Chair</div>
+                        <div class="col-6"><i class="fa-solid fa-wifi text-secondary me-2"></i>High-Speed Wi-Fi</div>
+                        <div class="col-6"><i class="fa-solid fa-fan text-secondary me-2"></i>Ceiling Fan</div>
+                        <div class="col-6"><i class="fa-solid fa-snowflake text-secondary me-2"></i>AC (Optional)</div>
+                        <div class="col-6"><i class="fa-solid fa-shower text-secondary me-2"></i>Hot Water</div>
+                        <div class="col-6"><i class="fa-solid fa-plug text-secondary me-2"></i>Power Backup</div>
+                    </div>
+                </div>
+                
+                <div class="col-md-6">
+                    <h3 class="mb-4">House Rules</h3>
+                    <div class="accordion" id="rulesAccordion">
+                        <div class="accordion-item border-0 border-bottom mb-2">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed px-0 fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#rule1">Visitor Policy</button>
+                            </h2>
+                            <div id="rule1" class="accordion-collapse collapse" data-bs-parent="#rulesAccordion">
+                                <div class="accordion-body px-0 text-muted">[VISITOR POLICY DETAILS]</div>
+                            </div>
+                        </div>
+                        <div class="accordion-item border-0 border-bottom mb-2">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed px-0 fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#rule2">Payment Schedule</button>
+                            </h2>
+                            <div id="rule2" class="accordion-collapse collapse" data-bs-parent="#rulesAccordion">
+                                <div class="accordion-body px-0 text-muted">[PAYMENT SCHEDULE DETAILS]</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+        <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="row g-4">
+                <div class="col-lg-4 col-md-6">
+                    <h4 class="heading-font text-white mb-4">Elite Stays PG</h4>
+                    <p class="text-muted mb-4">Premium PG accommodation in Coimbatore offering furnished rooms and essential amenities for students and working professionals.</p>
+                    <div class="d-flex gap-3">
+                        <a href="#" aria-label="Facebook"><i class="fa-brands fa-facebook fs-5"></i></a>
+                        <a href="#" aria-label="Instagram"><i class="fa-brands fa-instagram fs-5"></i></a>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-6">
+                    <h5 class="text-white mb-4">Quick Links</h5>
+                    <ul class="list-unstyled">
+                        <li class="mb-2"><a href="index.html">Home</a></li>
+                        <li class="mb-2"><a href="rooms.html">Rooms</a></li>
+                        <li class="mb-2"><a href="amenities.html">Amenities</a></li>
+                        <li class="mb-2"><a href="locations.html">Locations</a></li>
+                        <li class="mb-2"><a href="about.html">About</a></li>
+                        <li class="mb-2"><a href="faq.html">FAQ</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <h5 class="text-white mb-4">Rooms</h5>
+                    <ul class="list-unstyled">
+                        <li class="mb-2"><a href="rooms.html">Single Room</a></li>
+                        <li class="mb-2"><a href="rooms.html">Twin Sharing</a></li>
+                        <li class="mb-2"><a href="rooms.html">Triple Sharing</a></li>
+                        <li class="mb-2"><a href="rooms.html">AC Rooms</a></li>
+                        <li class="mb-2"><a href="rooms.html">Non-AC Rooms</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <h5 class="text-white mb-4">Contact</h5>
+                    <ul class="list-unstyled text-muted">
+                        <li class="mb-3"><i class="fa-solid fa-phone me-2"></i> +91 98765 43210</li>
+                        <li class="mb-3"><i class="fa-brands fa-whatsapp me-2"></i> +91 98765 43210</li>
+                        <li class="mb-3"><i class="fa-solid fa-envelope me-2"></i> hello@premiumpg.in</li>
+                        <li class="mb-3"><i class="fa-solid fa-location-dot me-2"></i> 123, Avinashi Road, Coimbatore</li>
+                    </ul>
+                </div>
+            </div>
+            <hr class="mt-5 mb-4 border-secondary">
+            <div class="row text-muted small">
+                <div class="col-md-6 text-center text-md-start">
+                    &copy; 2026 Elite Stays PG. All Rights Reserved.
+                </div>
+                <div class="col-md-6 text-center text-md-end">
+                    <a href="#" class="me-3">Privacy Policy</a>
+                    <a href="#" class="me-3">Terms & Conditions</a>
+                    <a href="#">Disclaimer</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+    <script src="js/room-details.js"></script>
+</body>
+</html>

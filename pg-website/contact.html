@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact & Book Visit | Premium PG in Coimbatore</title>
+    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg fixed-top scrolled">
+        <div class="container">
+            <a class="navbar-brand heading-font fs-4" href="index.html">Elite Stays PG</a>
+            <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <i class="fa-solid fa-bars fs-2 text-primary"></i>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav mx-auto">
+                    <li class="nav-item"><a class="nav-link " href="index.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link " href="rooms.html">Rooms</a></li>
+                    <li class="nav-item"><a class="nav-link " href="amenities.html">Amenities</a></li>
+                    <li class="nav-item"><a class="nav-link " href="locations.html">Locations</a></li>
+                    <li class="nav-item"><a class="nav-link " href="about.html">About</a></li>
+                    <li class="nav-item"><a class="nav-link " href="faq.html">FAQ</a></li>
+                    <li class="nav-item"><a class="nav-link active" href="contact.html">Contact</a></li>
+                </ul>
+                <div class="d-flex align-items-center gap-3">
+                    <a href="tel:+91 98765 43210" class="text-decoration-none d-none d-xl-block">
+                        <i class="fa-solid fa-phone me-2"></i>+91 98765 43210
+                    </a>
+                    <a href="contact.html" class="btn btn-primary">Book a Visit</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Contact Section -->
+    <section class="section-padding pt-5 mt-5 bg-light">
+        <div class="container pt-4">
+            <div class="row g-5">
+                
+                <!-- Contact Info -->
+                <div class="col-lg-5" data-aos="fade-right">
+                    <h1 class="display-5 mb-4">Find Your Next Stay in Coimbatore</h1>
+                    <p class="lead text-muted mb-5">Have a question or want to schedule a visit? Fill out the form or reach out to us directly.</p>
+                    
+                    <div class="d-flex align-items-center mb-4">
+                        <div class="bg-white p-3 rounded-circle shadow-sm me-4 text-primary">
+                            <i class="fa-solid fa-phone fs-4"></i>
+                        </div>
+                        <div>
+                            <h6 class="mb-1 fw-bold">Call Us</h6>
+                            <p class="text-muted mb-0">+91 98765 43210</p>
+                        </div>
+                    </div>
+                    
+                    <div class="d-flex align-items-center mb-4">
+                        <div class="bg-white p-3 rounded-circle shadow-sm me-4 text-success">
+                            <i class="fa-brands fa-whatsapp fs-4"></i>
+                        </div>
+                        <div>
+                            <h6 class="mb-1 fw-bold">WhatsApp</h6>
+                            <p class="text-muted mb-0">+91 98765 43210</p>
+                        </div>
+                    </div>
+                    
+                    <div class="d-flex align-items-center mb-4">
+                        <div class="bg-white p-3 rounded-circle shadow-sm me-4 text-primary">
+                            <i class="fa-solid fa-envelope fs-4"></i>
+                        </div>
+                        <div>
+                            <h6 class="mb-1 fw-bold">Email</h6>
+                            <p class="text-muted mb-0">hello@premiumpg.in</p>
+                        </div>
+                    </div>
+                    
+                    <div class="d-flex align-items-center mb-4">
+                        <div class="bg-white p-3 rounded-circle shadow-sm me-4 text-primary">
+                            <i class="fa-solid fa-location-dot fs-4"></i>
+                        </div>
+                        <div>
+                            <h6 class="mb-1 fw-bold">Location</h6>
+                            <p class="text-muted mb-0">123, Avinashi Road, Coimbatore</p>
+                        </div>
+                    </div>
+                    
+                    <div class="d-flex align-items-center">
+                        <div class="bg-white p-3 rounded-circle shadow-sm me-4 text-primary">
+                            <i class="fa-regular fa-clock fs-4"></i>
+                        </div>
+                        <div>
+                            <h6 class="mb-1 fw-bold">Working Hours</h6>
+                            <p class="text-muted mb-0">[BUSINESS HOURS]</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Contact Form -->
+                <div class="col-lg-7" data-aos="fade-left">
+                    <div class="bg-white p-5 rounded-4 shadow-sm border">
+                        <h3 class="mb-4">Book a Visit / Enquire</h3>
+                        <div id="formMessage"></div>
+                        <form id="contactForm">
+                            <div class="row g-3">
+                                <div class="col-md-6">
+                                    <label class="form-label text-muted small fw-bold">Full Name</label>
+                                    <input type="text" class="form-control" required>
+                                </div>
+                                <div class="col-md-6">
+                                    <label class="form-label text-muted small fw-bold">Phone Number</label>
+                                    <input type="tel" class="form-control" required>
+                                </div>
+                                <div class="col-md-12">
+                                    <label class="form-label text-muted small fw-bold">Email (Optional)</label>
+                                    <input type="email" class="form-control">
+                                </div>
+                                <div class="col-md-6">
+                                    <label class="form-label text-muted small fw-bold">Preferred Location</label>
+                                    <select class="form-select" required>
+                                        <option value="">Select Location</option>
+                                        <option value="peelamedu">Peelamedu</option>
+                                        <option value="saravanampatti">Saravanampatti</option>
+                                        <option value="gandhipuram">Gandhipuram</option>
+                                    </select>
+                                </div>
+                                <div class="col-md-6">
+                                    <label class="form-label text-muted small fw-bold">Room Type</label>
+                                    <select class="form-select" required>
+                                        <option value="">Select Type</option>
+                                        <option value="single">Single</option>
+                                        <option value="twin">Twin Sharing</option>
+                                        <option value="triple">Triple Sharing</option>
+                                    </select>
+                                </div>
+                                <div class="col-md-6">
+                                    <label class="form-label text-muted small fw-bold">AC / Non-AC</label>
+                                    <select class="form-select" required>
+                                        <option value="">Select Option</option>
+                                        <option value="ac">AC</option>
+                                        <option value="non-ac">Non-AC</option>
+                                    </select>
+                                </div>
+                                <div class="col-md-6">
+                                    <label class="form-label text-muted small fw-bold">Expected Move-in Date</label>
+                                    <input type="date" class="form-control" required>
+                                </div>
+                                <div class="col-12">
+                                    <label class="form-label text-muted small fw-bold">Message / Special Requirements</label>
+                                    <textarea class="form-control" rows="4"></textarea>
+                                </div>
+                                <div class="col-12 mt-4">
+                                    <button type="submit" class="btn btn-primary btn-lg w-100">Submit Enquiry</button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+        <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="row g-4">
+                <div class="col-lg-4 col-md-6">
+                    <h4 class="heading-font text-white mb-4">Elite Stays PG</h4>
+                    <p class="text-muted mb-4">Premium PG accommodation in Coimbatore offering furnished rooms and essential amenities for students and working professionals.</p>
+                    <div class="d-flex gap-3">
+                        <a href="#" aria-label="Facebook"><i class="fa-brands fa-facebook fs-5"></i></a>
+                        <a href="#" aria-label="Instagram"><i class="fa-brands fa-instagram fs-5"></i></a>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-6">
+                    <h5 class="text-white mb-4">Quick Links</h5>
+                    <ul class="list-unstyled">
+                        <li class="mb-2"><a href="index.html">Home</a></li>
+                        <li class="mb-2"><a href="rooms.html">Rooms</a></li>
+                        <li class="mb-2"><a href="amenities.html">Amenities</a></li>
+                        <li class="mb-2"><a href="locations.html">Locations</a></li>
+                        <li class="mb-2"><a href="about.html">About</a></li>
+                        <li class="mb-2"><a href="faq.html">FAQ</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <h5 class="text-white mb-4">Rooms</h5>
+                    <ul class="list-unstyled">
+                        <li class="mb-2"><a href="rooms.html">Single Room</a></li>
+                        <li class="mb-2"><a href="rooms.html">Twin Sharing</a></li>
+                        <li class="mb-2"><a href="rooms.html">Triple Sharing</a></li>
+                        <li class="mb-2"><a href="rooms.html">AC Rooms</a></li>
+                        <li class="mb-2"><a href="rooms.html">Non-AC Rooms</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <h5 class="text-white mb-4">Contact</h5>
+                    <ul class="list-unstyled text-muted">
+                        <li class="mb-3"><i class="fa-solid fa-phone me-2"></i> +91 98765 43210</li>
+                        <li class="mb-3"><i class="fa-brands fa-whatsapp me-2"></i> +91 98765 43210</li>
+                        <li class="mb-3"><i class="fa-solid fa-envelope me-2"></i> hello@premiumpg.in</li>
+                        <li class="mb-3"><i class="fa-solid fa-location-dot me-2"></i> 123, Avinashi Road, Coimbatore</li>
+                    </ul>
+                </div>
+            </div>
+            <hr class="mt-5 mb-4 border-secondary">
+            <div class="row text-muted small">
+                <div class="col-md-6 text-center text-md-start">
+                    &copy; 2026 Elite Stays PG. All Rights Reserved.
+                </div>
+                <div class="col-md-6 text-center text-md-end">
+                    <a href="#" class="me-3">Privacy Policy</a>
+                    <a href="#" class="me-3">Terms & Conditions</a>
+                    <a href="#">Disclaimer</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/contact.js"></script>
+</body>
+</html>
